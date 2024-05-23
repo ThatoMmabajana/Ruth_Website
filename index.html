@@ -1,47 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- MAIN CSS FILE LINK -->
-    <link rel="stylesheet" href="Main.css">
-    <!-- GOOGLE FONTS LINK -->
-    <!-- Link here -->
-    <!-- BOX ICONS LINK -->
-    <!-- Link here -->
-    <title>T & R Biokineticists</title>
-</head>
-<body>
-    <!-- Whole page container -->
-    <div class="container">
-        <!-- Header -->
-        <header>
-            <!-- code here -->
-        </header>
-        <!-- Main content section -->
-        <main>
-            <!-- hero image slideshow -->
-            <!-- code here -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <!-- BOX ICONS link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>T&R Biokinetics</title>
 
-            <!-- slogan -->
-            <!-- code here -->
+    <!-- <script defer src="script.js"></script> -->
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="./img/logo.png"
+          alt="T&R Biokinetics logo"
+          class="nav__logo"
+          id="logo"
+        />
+        <ul class="nav__links">
+          <!-- <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li> -->
+          <!-- <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li> -->
+          <li class="nav__item">
+            <a class="nav__link" href="#header__title">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="Services-Page-main/index.html">Services</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="About/index.html">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="Gallery/gallery.html">Gallery</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Bookings</a
+            >
+          </li>
+        </ul>
+      </nav>
 
-            <!-- FAqs -->
-            <!-- code here -->
+      <div class="header__title" id="header__title">
+        <h1>
+          Where
+          <!-- Green highlight effect -->
+          <span class="highlight">health</span>
+          is<br />
+          <span class="highlight">medicine</span>
+        </h1>
+        <h4>Use it or Lose it!.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="img/hero.jpg"
+          class="header__img"
+          alt="A client during a session"
+        />
+      </div>
+    </header>
 
-            <!-- About  -->
-            <!-- code here -->
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <!-- <h2 class="section__description">Features</h2> -->
+        <h3 class="section__header">
+          Bio-kinetics = Life through Movement
+        </h3>
+      </div>
 
-            <!-- services -->
-            <!-- code here -->
+      <div class="features">
+        <img
+          src="img/physical-therapy-1.jpeg"
+          alt="A client during a session"
+          class="features__img"
+        />
+        <div class="features__feature">
+          <!-- <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div> -->
+          <h5 class="features__header">
+            Ever heard of a biokineticist?
+          </h5>
+          <p>
+            A biokineticist is a healthcare professional who specializes in exercise therapy and rehabilitation. 
+            They assess, treat, and prevent a variety of physical injuries and conditions through exercise and 
+            movement. Biokineticists work with patients to improve their physical well-being, rehabilitate 
+            injuries, manage chronic diseases, and enhance overall health and fitness.
+          </p>
+        </div>
 
-            <!-- Reviews and locations -->
-            <!-- code here -->
-        </main>
-        <!-- footer -->
-        <footer>
-            <!-- code here -->
-        </footer>
+        <div class="features__feature">
+          <!-- <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div> -->
+          <h5 class="features__header">What we do</h5>
+          <p>
+            Biokineticists use exercise as a primary tool to help patients improve their strength, flexibility, 
+            endurance, and overall functional capacity. They design individualized exercise programs tailored 
+            to each patient's needs, taking into account their medical history, current fitness level, and specific 
+            goals. These programs often include a combination of cardiovascular, strength, flexibility, and balance exercises.
+          </p>
+        </div>
+        <img
+          src="img/physical-therapy-2.jpeg"
+          alt="A client during a session"
+          class="features__img"
+        />
+
+        <!-- <img
+          src="img/physical-therapy-3.jpg"
+          alt="A client during a session"
+          class="features__img"
+        /> -->
+        <!-- <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">
+            Registered health professionals at your service
+          </h5>
+          <p>
+            Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+            eveniet consequatur odit quam quos possimus assumenda dicta fuga
+            inventore ab.
+          </p>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <!-- <h2 class="section__description"></h2> -->
+        <h3 class="section__header">
+          Everything you need in a modern biokinetics facility
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Midrand Physio and Wellness Facility
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Moreleta Park Facility
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Wonderpark Shopping Centre
+          </button>
+        </div>
+
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <!-- <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div> -->
+          <!-- <h5 class="operations__header"></h5> -->
+          <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.1417303713456!2d28.12691817420868!3d-25.99617422720529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956e1200a90e6b%3A0xc59ba9b5cd825f6a!2sMIDRAND%20PHYSIO%20AND%20WELLNESS!5e0!3m2!1sen!2sza!4v1712261979260!5m2!1sen!2sza" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <!-- <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Improving cognitive function and focus
+          </h5> -->
+          <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3590.926049918632!2d28.29951827420175!3d-25.838981977303426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e955d804c4adc5f%3A0xeb18b16a4efb32dc!2s1224%20Wekker%20Rd%2C%20Moreleta%20Park%2C%20Pretoria%2C%200044!5e0!3m2!1sen!2sza!4v1712262319255!5m2!1sen!2sza" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <!-- <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Enhancing self-esteem and confidence
+          </h5> -->
+          <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.9528700025717!2d28.1104889!3d-25.672857000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebfd917bd6b8b7b%3A0xaabd1bab3761823!2sWonderpark%20Shopping%20Centre!5e0!3m2!1sen!2sza!4v1712261675192!5m2!1sen!2sza" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Thousands of clients are already improving their health
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best decision ever!</h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium quas quisquam non? Quas voluptate nulla minima
+              deleniti optio ullam nesciunt, numquam corporis et asperiores
+              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+              id alias reiciendis, perferendis facere pariatur dolore veniam
+              autem esse non voluptatem saepe provident nihil molestiae.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Eren Yeager</h6>
+              <p class="testimonial__location">Randburg, Johannesburg</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to effectively managing chronic pain
+            </h5>
+            <blockquote class="testimonial__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Mikasa Ackerman</h6>
+              <p class="testimonial__location">Waterkloof, Pretoria</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school biokinetics facilities
+            </h5>
+            <blockquote class="testimonial__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Eustass Kid</h6>
+              <p class="testimonial__location">Midrand, Johannesburg</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          <!-- The best day to join Bankist was one year ago. The second best is
+          today! -->
+          We provide world class biokinetics services. Secure your booking
+          now!!!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Bookings</button>
+      <div class="contact-section">
+        <p>
+          <i class='bx bxl-instagram' style="color: #a11d1d;"></i>
+        </p>
+        <p>
+          <i class='bx bxl-whatsapp' style="color: green;"></i>
+        </p>
+        <p>
+          <i class='bx bxl-gmail' style='color:#a11d1d' ></i>
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#header__title">Home</a>
+        </li>
+        <!-- <li class="footer__item">
+          <a class="footer__link" href="#"></a>
+        </li> -->
+        <li class="footer__item">
+          <a class="footer__link" href="Services-Page-main/index.html">Services</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Gallery</a>
+        </li>
+        <!-- <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li> -->
+      </ul>
+      <img src="img/logo.png" alt="Logo" class="footer__logo" />
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Secure your booking <br />
+        in just <span class="highlight">30 seconds</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
     </div>
-</body>
+    <div class="overlay hidden"></div>
+  </body>
+  <script src="/Scripts/script.js"></script>
 </html>
